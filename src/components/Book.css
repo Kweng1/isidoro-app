@@ -1,0 +1,47 @@
+/* Books.css */
+
+/* Styles for the Books component */
+.books-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .books-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .books-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .books-list li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .books-list span {
+    margin-right: 10px;
+  }
+  
+  .books-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .books-list button:hover {
+    background-color: #0056b3;
+  }
+  
